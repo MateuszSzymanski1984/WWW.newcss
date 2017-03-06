@@ -1,0 +1,256 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800&subset=latin,latin-ext);
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	/*background-color: white;*/
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	word-wrap: break-word;
+}
+
+#container
+{
+	height: 2500px;
+	width: 100%;
+}
+
+#pasek1
+{
+	width: 100%;
+	height: 6%;
+	background-color: #4C4C50;
+}
+
+#lewa_logo
+{
+	float: left;
+	margin: 20px 20px;
+	width: 20%;
+	height: 60%;
+}
+
+#logo
+{
+	background: url('1.jpg') no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 80%;
+}
+
+#logo_text
+{
+	display: block;
+	text-align: center;
+	margin-top: 2%;
+	width: 100%;
+	height: 20%;
+}
+
+#logo_text a
+{
+	text-decoration: none !important;
+	color: #E6DBDB;
+	font-size: 18px;
+}
+
+#logo_kontakt
+{
+	width: 20%;
+	height: 50%;
+	float: right;
+	margin: 20px 20px;
+	border: 1px solid black;
+}
+
+#navbar
+{
+	width: 100%;
+	height: 3%;
+	background-color: black;
+}
+
+#navbar2
+{
+	width: 100%;
+	height: 11%;
+	background-color: black;
+	position: fixed;
+	bottom: 0px;
+	margin-top: 1%;
+}
+
+#start
+{
+	height: 100%;
+}
+
+.content
+{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.content2
+{
+	width: 80%;
+	height: 16%;
+	margin: 0px 10% 3% 10%;
+}
+
+.menu
+{
+	width: 24%;
+	height: 100%;
+}
+
+.menu:hover
+{
+	background-color: #1F1C1C;
+	cursor: pointer;
+}
+
+
+.floatL
+{
+	float: left;
+}
+
+.floatR
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.menu_text
+{
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 2px;
+	height: 100%;
+	margin-top: 3%;
+}
+
+.white_page
+{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+.zawartosc
+{
+	width: 48%;
+	height: 90%;
+	border: 1px solid black;
+	border-radius: 25px;
+	margin: 2% 0% 3% 0%;
+	background-color: #F8B147;
+}
+
+.menu_text2
+{
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 49%;
+}
+
+.menu_text3
+{
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	margin-top: 5%
+}
+
+.title
+{
+	width: 100%;
+	height: 5%;
+	background-color: #333131;
+}
+
+.title_text
+{
+	display: block;
+	text-align: center;
+	color: white;
+	letter-spacing: 3px;
+	height: 100%;
+	font-size: 80px;
+}
+
+.foto2
+{
+	background: url('2.jpg') no-repeat;
+	background-size: cover;
+}
+
+.radius
+{
+	border-radius: 25px;
+}
+
+@media (max-width: 1199px)
+{
+			body {background: white;}
+			#logo {height: 54%;}
+			#navbar {height: 2%;}
+			.menu_text {font-size: 25px;}
+			.menu_text3 {font-size: 22px;}
+}
+
+
+@media (max-width: 991px)
+{	
+			body {background: white;}
+			#lewa_logo {width: 25%; height: 70%;}
+			#logo_kontakt {width: 30%;}
+			.menu_text {font-size: 20px;}
+			.title {height: 3%;}
+			.title_text {font-size: 52px;}
+			.menu_text3 {font-size: 19px;}
+			.content2 {height: 19%;}
+
+}
+
+
+@media (max-width: 767px)
+{
+			body {background: white;}
+			#lewa_logo {width: 35%;}
+			#logo_text {margin-top: 0px;}
+			#logo_text a {font-size: 17px;}
+			#logo_kontakt {width: 35%;}
+			.menu_text {font-size: 15px;}
+			#navbar {height: 1%;}
+			.content2 {width: 100%; margin: 0%; height: 20%;}
+			.content {width: 100%;}
+}
+
+
+@media (max-width: 479px)
+{
+			body {background: white;}	
+}
+
+
+
+
+
+
+
+
+
+
