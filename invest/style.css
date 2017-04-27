@@ -1,0 +1,984 @@
+/*
+Theme Name: Invest
+Author: INTERPROM.PL
+Version: 1.1
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin-ext);
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic&subset=latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=latin-ext);
+
+@charset "utf-8";
+*{
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	text-decoration: none; 
+	outline: 0;
+	
+}
+body {
+	word-wrap: break-word;
+}
+/* style wordpress start */
+
+.bx-pager-link.active
+{
+	background-color: #f6821f !important;	
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+.alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+
+}
+
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 3px 10px;
+	text-align: center;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+/* style wordpress stop */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin-ext);
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic&subset=latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=latin-ext);
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	text-decoration: none;
+	padding: 0px;
+}
+
+
+body
+{
+	background-color: #ffffff;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	line-height: 1.5em;
+}
+
+h2{
+	font-size: 24px;
+}
+
+.tinynav { display: none }
+
+img#logo1 {
+	margin-top: 10px;
+	max-width: 100%;
+}
+
+#main_box
+{
+	width: 100%;
+	height: 100%;
+}
+
+.navbar
+{
+	height: 10%;
+	width: 100%;
+	font-weight: 700;
+	font-size: 11px;
+}
+
+
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 100%;
+	max-width: 1400px;
+}
+
+.center2
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 100%;
+	margin-top: 5%;
+}
+
+.menu
+{
+	height: 100%;
+	text-align: center;
+	display: block;
+	padding: 0px !important;
+	
+}
+
+.menu ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu li
+{
+	display: inline-block; /*poziome ulozenie*/
+	border-left: 1px solid #e0e0e0;
+	padding: 60px 1% 0% 1%;
+	width: 100%;
+	
+}
+
+.menu li a
+{
+	text-decoration: none;
+	color: #211f1d;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.menu li a:hover,
+.menu li.current_page_item a
+{
+	color: #f6821f
+}
+
+.floatL
+{
+	float: left;
+}
+
+.clear
+{
+	clear: both;
+}
+
+#tlo1
+{
+	height: 24%;
+	width: 100%;
+}
+
+.slajd{
+	height: 600px;
+	position: relative;
+	background-position: 50% 50% !important;
+	background-repeat: no-repeat !important;
+	background-size:cover !important;
+}
+
+#tlo11
+{
+	width: 100%;
+	height: 100%;
+}
+
+.lewy
+{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.prawy
+{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+.prawy_lewy
+{
+	height: 100%;
+	font-family: 'lato';
+	color: black;
+	font-size: 20px;
+	position: relative; /*relative daje sie na rodzica, absolute na dziecko*/
+	padding: 0px;
+}
+
+.prawy_prawy
+{
+	height: 100%;
+	position: relative !important;
+}
+
+.text
+{
+	position: absolute;
+	font-family: lato;
+	font-weight: 700;
+	top: 100px;
+	right: 100px;
+	color: white;
+	font-size: 40px;
+	text-shadow: 0px 0px 1px #000;
+}
+
+.text a{
+	text-decoration: none;
+}
+
+.text a:hover, .text a:focus{
+	outline: none;
+}
+
+.button
+{
+	background-color: #f6821f;
+	border-radius: 5px;
+	display: inline-block;
+	color: white;
+	margin-top: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	padding: 10px 50px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.button2:hover
+{
+	text-decoration: none;
+}
+
+.text2
+{
+	position: absolute;
+	top: -100px;
+	color: white;
+	font-size: 22px;
+	font-family: lato;
+}
+
+#nasza_oferta
+{
+	color: #f6821f;
+}
+
+
+#ofirmie
+{
+	height: 15%; 
+	margin-top: 2%;
+	width: 100%;
+}
+
+#header
+{
+	text-align: center;
+	display: block;
+	color: #f7941e;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#zawartosc
+{
+	font-size: 14px;
+	color: black;
+	margin: 25px 0px 40px 0px;
+	display: inline-block;
+	width: 100%;
+}
+
+.zaw
+{
+	
+	text-align: center;
+	margin-top: 20px;
+	display: block;
+}
+
+#tlo2
+{
+	height: 15%;
+	width: 100%;
+	position: relative;
+}
+
+#tlo22
+{
+	width: 100%;
+	height: 100%;
+	min-height: 200px;
+}
+
+.tlo2_text
+{
+	text-align: center;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: white;
+	height: 28%;
+	letter-spacing: 3px;
+}
+
+.tlo2_text2
+{
+	text-align: center;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: white;
+	letter-spacing: 3px;
+	margin: 2% 0%;
+}
+
+#thin
+{
+	font-weight: 400;
+}
+
+.center_tlo2
+{
+	position: absolute;
+	margin: auto;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	height: 80%;
+	text-align: center;
+}
+
+a.button2
+{
+	background-color: #f6821f;
+	border-radius: 5px;
+	display: inline-block;
+	color: white;
+	margin-top: 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	padding: 10px 50px;
+	text-align: center;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+#kontakt
+{
+	height: 35%;
+	width: 100%;
+	margin-top: 3%;
+}
+
+.gora
+{
+	width: 100%;
+	height: 60%;
+	padding: 0px !important;
+	margin-bottom: 3%;
+}
+
+.name2
+{
+	display: block;
+	color: #4d5357;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 2%;
+}
+
+.jeden
+{
+	height: 100%;
+}
+
+.jeden_kontakt
+{
+	margin-top: 7%;
+}
+
+.jeden_kontakt:first-of-type{
+	margin-top: 0px;
+}
+
+.map
+{
+	margin-bottom: 2%;
+}
+
+#GoogleMap
+{
+	height: 300px;
+}
+
+
+.text_jeden_d
+{
+	color: #1b1a1d;
+	font-size: 14px;
+	font-family: 'Ubuntu';
+	font-weight: 700;
+	display: block;
+}
+.dwa
+{
+	height: 100%;
+	margin: 0px;
+}
+
+.phone
+{
+	margin-top: 5%;
+}
+
+#opis_phone
+{
+	display: block;
+	float: left;
+	font-family: 'Ubuntu';
+	font-weight: 700;
+}
+
+input.box,
+textarea.box
+{
+	border: 1px dotted #d2d2d2;
+	border-radius: 5px;
+	margin-bottom: 4%;
+	width: 86%;
+	min-height: 30px;
+	font-size: 20px !important;
+	resize: none;
+}
+
+
+textarea.wys_box
+{
+	height: 120px;
+}
+
+input[type="submit"]
+{
+	border: 1px solid #f6821f;
+	background-color: #f6821f;
+	padding: 1% 3%;
+	border-radius: 5px;
+	width: 50%;
+	margin-top: 5%;
+	color: white;
+	text-transform: lowercase;
+}
+
+.dojazd
+{
+	display: block;
+	font-family: 'Ubuntu';
+	font-weight: 700;
+	margin-bottom: 2%;
+}
+
+.slider
+{
+	list-style: none;
+}
+
+.bx-wrapper
+{
+	position: relative;
+	margin-bottom: 0px !important;
+}
+
+.bx-wrapper img{
+	margin: auto;
+}
+
+.bx-pager-item
+{
+	margin-top: 10px !important;
+}
+
+.bx-pager-link
+{
+	background-color: white !important;
+}
+
+.bx-default-pager a:hover
+{
+	background-color: #f6821f !important;
+	cursor: pointer;	
+}
+
+
+.adres
+{
+	display: block;
+	font-family: 'Ubuntu';
+	margin-top: 3%;
+}
+
+.trzy
+{
+	height: 100%;
+}
+
+.dol
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 5%;
+	padding: 0px !important;
+	background-color: #f8f8f8;
+}
+
+.row
+{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.invest
+{
+	padding: 0px !important;
+}
+
+.tel
+{
+	padding: 0px !important;
+}
+
+.info
+{
+	padding: 0px !important;
+}
+
+.stopka_gora
+{
+	font-size: 12px;
+}
+
+.stopka_dol
+{
+	margin-top: 2%;
+	padding: 0px !important;
+}
+
+.menu2
+{
+	width: 85%;
+	height: 100%;
+	text-align: center;
+	display: block;
+	font-size: 12px;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.menu2 ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu2 li:first-child
+{
+	padding-left: 0px;
+	border-left: none;
+}
+
+.menu2 li
+{
+	display: inline-block; /*poziome ulozenie*/
+	border-left: 1px solid #e0e0e0;
+	padding: 1% 1% 0% 1%;
+	width: 100%;
+}
+
+.menu2 li a
+{
+	text-decoration: none;
+	color: #211f1d;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.menu2 li a:hover
+{
+	color: #f6821f
+}
+
+.arrow
+{
+	margin: 0px !important;
+}
+
+.invest_photo
+{
+	width: 60%;
+}
+
+.telefBIG
+{
+	font-size: 18px;
+	color: #f6821f;
+	font-weight: bold;
+}
+
+.copy
+{
+	color: #a9a9a9;
+	font-size: 10px;
+	margin-top: 1%;
+	padding-left: 20px;
+}
+
+.copyw p{
+	margin-bottom: 0px;
+}
+
+.stopka_gora {
+	padding-top: 1em;
+}
+
+.menu_miasta_dzielnice
+{
+	padding: 8% 0% 2% 0%;
+	text-align: center;
+	border-top: 2px solid #f8f8f8;
+	float: none;
+	margin: auto;
+	max-width: 1400px;
+
+}
+
+.menu_miasta
+{
+	margin-top: 2%;
+	max-width: 1400px;
+	float: none;
+	margin: 2% auto 0px;
+	text-align: center;
+}
+
+ul.menu_miasta li
+{
+	display: inline-block;
+	margin-left: 1%;
+}
+
+ul.menu_miasta li a
+{
+	color: black;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.menu_dzielnice
+{
+	margin-top: 2%;
+	margin-bottom:5%;
+	float: none;
+}
+
+.uslugi{
+	text-align: center;
+}
+
+ul.menu_dzielnice li
+{
+	display: inline-block;
+	margin-left: 1%;
+}
+
+ul.menu_dzielnice li:first-child
+{
+	font-weight: 700;
+}
+
+ul.menu_dzielnice li a
+{
+	color: black;
+	font-weight: 400;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+ul.menu_miasta li a:hover
+{
+	color: #f6821f;
+}
+
+
+ul.menu_dzielnice li a:hover
+{
+	color: #f6821f;
+}
+
+.galeria img{
+	margin-bottom: 30px;
+}
+
+table.half-table td{
+	width: 48%;
+	vertical-align: top;
+}
+
+table.half-table td:nth-of-type(odd){
+	padding-right: 1%;
+}
+
+table.half-table td:nth-of-type(even){
+	padding-left: 1%;
+}
+
+a:focus{
+	outline: 0;
+}
+
+a.album:hover{
+	text-decoration: none;
+}
+
+a .nazwa-galerii{
+	text-decoration: none;
+	font-size: 18px;
+	color: #f7941e;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a.album img{
+	margin-bottom: 0px;
+}
+
+a.album{
+	margin-bottom: 30px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.opis_phone p{
+	display: inline-block;
+	line-height: 1.5em;
+}
+
+span.opis_phone {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.text_jeden_d {
+	color: #f6821f;
+}
+
+span.ul {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+
+span.ul:nth-of-type(2){
+	margin-right: 0px;
+}
+
+.hidd-load{
+	display: none;
+}
+
+/*1200 i więcej LARGE*/
+
+@media (max-width: 1199px)  /*992-1199 MEDIUM*/
+{
+	.menu li:first-child {padding-left: 0px !important; border-left: none;}
+	.menu li:last-child {padding-right: 0px !important; border-right: none;}
+	.menu {font-size: 9px;}
+	.navbar {margin-bottom: 0px;}
+	.text {font-size: 32px; right: 75px;}
+	.button {font-size: 25px;}
+	.kropki_slider {bottom: 200px;}
+	.kropka {width: 13px; height: 13px;}
+	.tlo2_text {font-size: 24px;}
+	.tlo2_text2 {font-size: 10px; margin: 3% 0%;}
+	.button {font-size: 20px;}
+	.stopka_gora {font-size: 10px;}
+	.menu2 {font-size: 9px;}
+	.slajd {height: 525px;}
+	a.button2{ margin-top: 0px; }
+}
+
+@media (max-width: 991px)  /*768-991 SMALL*/
+{	
+	.tinynav { display: block }
+	#nav { display: none }
+	.menu li a {padding: 5px;}
+	.menu li a{padding: 15px;}
+	.text { font-size: 26px;}
+	.text2 {left: 50%;}
+	.button {top: -170px; left: 50%;}
+	.kropka {width: 8px; height: 8px;}
+	.kropki_slider {bottom: 150px;}
+	.tlo2_text {font-size: 20px;}
+	.tlo2_text2 {margin: 3% 0% 1% 0%;}
+	.button {font-size: 18px;}
+	.trzy {margin-top: 40px;}
+	.opis_phone {font-size: 12px;}
+	.name2 {text-align: center;}
+	.tel {text-align:center; font-size: 18px;}
+	.info {margin-top: 20px;}
+	.menu {width: 100%;}
+	#tinynav1, #tinynav2{width: 80%;font-size: 18px; text-transform: uppercase; text-align: center; margin-left: auto; margin-right: auto; margin-top: 2%; margin-bottom: 2%; letter-spacing: 3px; border: 1px solid black; cursor: pointer;}
+	#nav2 {display: none;}
+	.lewy {display: none;}
+	.prawy_lewy {width: 100%;}
+	.prawy {width: 100%;}
+	.logo{width: 100%; padding: 0px !important; text-align: center;}
+	.col-nip-krs{text-align: right; margin-top: 0px;}
+	a.button2{font-size: 18px;}
+	.menu2{width: 100%;}
+	.arrow{text-align: center; margin: 15px 0px 15px !important;}
+	span.col-xs-12.telef{text-align: left;}
+}
+
+
+@media (max-width: 767px)  /*DO 767 EXTRA SMALL*/
+{
+	.menu {width: 100%;}
+	.button {top: -70px; left: 35%;}
+	.kropki_slider {bottom: 80px;}
+	#zawartosc {font-size: 12px;}
+	.name2 {font-size: 24px;margin-bottom: 0px;}
+	.jeden {font-size: 12px;}
+	.dwa form{font-size: 12px;}
+	.jeden_kontakt {margin-top: 2%;}
+	.phone {margin-top: 2%;}
+	.box {width: 100%;}
+	.telef {margin-bottom: 15px;}
+	.bx-wrapper .bx-pager{top: 150px;}
+	.slajd{height: 450px;}
+	.col-nip-krs, span.col-xs-12.telef{text-align: center;}
+	a.button2 {padding: 5px 25px;}
+	ul.menu_miasta li a, ul.menu_dzielnice li a{font-size: 12px;}
+	a .nazwa-galerii{font-size: 14px;}
+	ul.menu_dzielnice li,
+	ul.menu_miasta li{
+		margin-left: 2%;
+		line-height: 1.5em;
+	}
+}
+
+@media(max-width: 599px){
+	.dwa{margin: 30px 0px 0px;}
+	.jeden_kontakt{text-align: center;}
+	.dwa form {text-align: center;}
+	.g-recaptcha > div {margin: auto; max-width: 100%;}
+	.text {font-size: 18px;}
+	.text2 {top: -154px; font-size: 18px; right: 2px;}
+	.bx-wrapper .bx-pager.bx-default-pager a{margin: 0px 5px 5px 5px; width: 8px; height: 8px;}
+	.slajd{height: 400px;}
+	a .nazwa-galerii{font-size: 12px;}
+	ul.menu_dzielnice li,
+	ul.menu_miasta li{
+		margin-left: 3%;
+		line-height: 1.75em;
+	}
+}
+
+@media (max-width: 479px)  /*320-479*/
+{
+	#tinynav1 {width: 80%; margin-bottom: 5%;}
+	#tinynav2 {width: 80%;}
+	.text2 {top: -125px; font-size: 15px; right: 40%; width: 50%;}
+	.button {font-size: 15px;}
+	.kropka {width: 5px; height: 5px;}
+	.kropki_slider {bottom: 50px;}
+	.button2 {height: 26px;}
+	.bx-pager {padding-top: 0px !important; margin-top: -6%;  margin-right: 3%;}
+	.bx-default-pager a {width: 10px !important; height: 10px !important;}
+	img#logo1 {width: 100px; height: 50px;}
+	a.button2 {width:50%; height: 27px;}
+	.lewy {display: none;}
+	.prawy {width: 100%;}
+	.telefBIG{font-size: 14px;}
+	.bx-wrapper .bx-pager {top: 175px;}
+	a.button2{font-size: 14px;}
+	.tlo2_text{font-size: 16px;}
+	.slajd {height: 350px;}
+	ul.menu_dzielnice li,
+	ul.menu_miasta li{
+		margin-left: 5%;
+		line-height: 2em;
+	}
+}
+

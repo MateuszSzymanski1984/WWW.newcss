@@ -1,0 +1,749 @@
+/*
+Theme Name: Malyinzynier
+Author: Inov
+Version: 1.1
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic&subset=latin-ext);
+
+
+@charset "utf-8";
+*{
+	margin: 0; 
+    padding: 0; 
+    border: 0; 
+    text-decoration: none; 
+    outline: 0;
+}
+body {
+	font: 1em 'Helvetica Neue', Helvetica, sans-serif; /* 10px */
+	word-wrap: break-word;
+
+}
+/* style wordpress start */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+/* style wordpress stop */
+
+.center
+{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.center1
+{
+    width: 100%;
+}
+
+.logo
+{
+    padding: 0px;
+}
+
+.logo_left
+{
+    width: 100%;
+}
+
+.menu
+{
+    font-family: 'Lato', sans-serif;
+    padding: 0px;
+}
+
+.menu li
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 4% 1%;
+    font-size: 14px;    
+}
+
+.menu li a
+{
+    color: #818181;
+}
+
+
+ul.menu li.active a
+{
+   background-color: #0091c1 !important;  ---> aktywna zakładka, której tło podświetlone jest na czerwono
+}
+
+.menu li:after {
+    display: inline-block;
+    content: "/";
+    margin-left: 10px;
+}
+
+.menu li:last-child:after{
+    display: none;
+}
+
+.menu li a:hover
+{
+    color: #0091c1;
+    text-decoration: none;
+}
+
+
+.floatL
+{
+    float: left;
+}
+
+.floatR
+{
+    float: right;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.div_tlo
+{
+    padding: 0px;
+}
+
+.row
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.row3
+{
+    margin: 0% 0% 3% 0%
+}
+
+.lewy,
+.prawy
+{
+    padding: 0px;
+    height: 0px;
+}
+
+.prawy_lewy
+{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    top: -445px;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.pozalekcyjne
+{
+    font-size: 40px;
+}
+
+.lorem
+{
+    font-size: 15px !important;
+    font-weight: 400;
+}
+
+.button {
+    width: 45%;
+    border: 1px solid white;
+    position: absolute;
+    top: 230px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.button_text
+{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    padding: 4%;
+}
+
+.arrow2
+{
+    width: 10%;
+    position: absolute;
+    right: 15px;
+    top: 9px;
+}
+
+.socialmedia
+{
+    display: block;
+}
+
+.zaj,
+.media
+{
+    padding: 0px;
+}
+
+.newsletter
+{
+    margin-top: 30%;
+}
+
+.aktualnosci
+{
+    margin: 6% 0%;
+}
+
+
+.aktualnosci_header
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    color: #73bde0;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5%;
+}
+
+.box
+{
+    padding: 0px 10px;
+
+}
+
+.aktualnosci_respons
+{
+    margin-bottom: 40px;
+}
+
+.text_pod_obrazkiem 
+{
+    text-align: center;
+    display: block;
+    color: #606060;
+    font-size: 10px;
+    margin: 4% 0%;
+}
+
+.button_text
+{
+    padding: 8px;
+
+}
+
+.text2
+{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-bottom: 10%;
+}
+
+.button2
+{
+    border: 1px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button2 a{
+    text-decoration: none;
+}
+
+.button2:hover
+{
+    border: 1px solid #0082b5;
+}
+
+.button2_text
+{
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 3% 0%;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.div_tlo2
+{
+    background: url("images/tlo2.png") no-repeat;
+    background-size: cover;
+    height: 426px;
+}
+
+.button2_text:hover
+{
+    background-color: #0082b5;
+    color: white;
+    text-decoration: none !important;
+}
+
+.aktualnosci_footer
+{
+    display:block;
+    text-align:center;
+    margin-top: 42%;
+    color: black;
+    font-size: 17px;    
+}
+
+.aktualnosci_footer:hover
+{
+    text-decoration: none;
+}
+
+.div_tlo2
+{
+    padding: 0px;
+}
+
+.wiecej
+{
+    margin-right: 2%;
+}
+
+.tlo2_text1
+{
+    font-size: 24px;
+    color: white;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    font-weight: 700;
+}
+
+.tlo2_text2
+{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 14%;
+}
+
+
+.main_galery
+{
+    padding: 0px;
+    margin: 12% 0% 5% 0%;
+}
+
+.main_galery_photo
+{
+    position:relative;
+}
+
+.row1
+{
+    position: relative;
+}
+
+.obrazy
+{ 
+    width: 75%;
+    margin: 0% 0% 0% 10%
+}
+
+.zdjec
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 165px;
+    font-weight: 700;
+    color: #d7f4ff;
+    position: absolute;
+    top: 430px;
+    left: 600px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 50%;
+    padding: 0px;
+    z-index: -1;    /*z-index: -1 oznacza, że warstwa ta będzie na samym dole, poniżej innych*/
+}
+
+.slick-prev
+{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -7px;
+    font-size: 14px;
+    background: url("images/arrow-l.png") no-repeat scroll 0% 0%;
+    text-indent: -9999px;
+    width: 4%;
+    height: 22%;
+    z-index: 1;
+}
+
+.slick-next
+{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    font-size: 14px;
+    background: url("images/arrow-r.png") no-repeat scroll 0% 0%;
+    text-indent: -9999px;
+    width: 4%;
+    height: 22%;
+}
+
+.footer
+{
+    width: 100%;
+    background-color: #131313;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.footer_left
+{
+    padding: 0px;
+    margin: 3% 5% 3% 0%;
+}
+
+
+.footer_right
+{
+    padding: 0px;
+    margin: 3% 0% 3% 0%;
+}
+
+.centrala
+{
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin: 0% 0% 30px 0%;
+}
+
+.formularz
+{
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin: 0% 0% 30px 0%;
+}
+
+.adres
+{
+    float: left;
+    display: block;
+    padding: 0px;
+    margin-bottom: 10%;
+    color: #848484;
+}
+
+.biuro
+{
+    float: right;
+    display: block;
+    padding: 0px;
+}
+
+.centrala,
+.form_center,
+.form_form
+{
+    padding:0px;
+}
+
+.box
+{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.form
+{
+    display: inline-block;
+    padding: 0px;
+}
+
+.form4
+{
+    margin: 3% 0%;
+}
+
+.wys_box
+{
+    height: 150px;
+    width: 100%;
+}
+
+.submit
+{
+    padding: 0px;
+    height: 40px;
+    background: url('images/list.png'), #0082b5;
+    background-position: 95% center;
+    background-repeat: no-repeat;
+}
+
+.menu_footer li
+{
+    padding: 4% 0%;
+    font-size: 11px;
+}
+
+.menu li:after
+{
+    margin-left: 5px;
+}
+
+
+
+.arrow-up
+{
+    padding: 0px;
+}
+
+.arrow-up11
+{
+    width:50%;
+}
+
+.row5
+{
+    margin-top: 30%;
+}
+
+.copy
+{
+    text-align: center;
+    font-size: 8px;
+    color: #4a4a4a;
+    font-weight: 700;
+}
+
+.white
+{
+    background-color: white;
+    height: 250px;
+}
+
+.gray
+{
+    background-color: #84918a;
+    height: 50px;
+}
+
+.div_tlo
+{
+    background: url("images/tlo1.png") no-repeat;
+    background-size: cover;
+    background-position: 0% 50%;
+    height: 550px;
+}
+
+.main_galery_photo .lupa
+{
+    display: none;
+}
+
+.main_galery_photo:hover .lupa
+{
+    display: block;
+}
+
+.lupa
+{
+    position: absolute;
+    top: auto;
+    left: 175px;
+    right: 0px;
+    bottom: 15px;
+}
+
+.obraz{
+    width: 100%;
+}
+
+#pagination
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 3%;
+}
+
+.tinynav { display: none; }    /*to jest menu w stopce - tinynav STYLIZUJE*/
+                                /*to jest menu u gór - tinynv2 STYLIZUJEy*/
+
+.footer_right form input,
+.footer_right form textarea
+{
+    width: 100%;
+}
+/* musze dac jeszcze w odpowiednioej rozdzielczosci znacznik display: none; aby nie wyswietlało się druhoe menu*/
+
+
+
+/*1200 i więcej LARGE*/
+
+@media (max-width: 1199px)  /*992-1199 MEDIUM*/
+{
+    body {}
+    .zdjec {top: 447px; left: 495px; font-size: 110px;}
+    .prawy_lewy {top: -496px; font-size: 45px;}
+    .lorem {font-size: 13px !important;}
+    .obraz {width: 100%;}
+    .aktualnosci_footer {margin-top:48%;}
+    .tlo2_text2 {margin-top: 20%;}
+    .polska11 {width: 100%;}
+    .footer_left {margin: 3% 8% 3% 0%;}
+    /*.menu_footer { display: none;}  musze to dac aby nie pojawialo sie drugie menu aż do maxymalnej rozdzielczosco*/
+}
+
+
+@media (max-width: 991px)  /*768-991 SMALL*/
+{   
+    .zdjec {font-size: 0px;}
+    .menu li {font-size: 11px;}
+    .div_tlo {background-position: 10% 0%};
+    .aktualnosci_header {font-size: 50px;}
+    .aktualnosci_footer {margin-top:60%;}
+    .tlo2_text1 {font-size: 20px;}
+    .tlo2_text2 {margin-top: 25%; font-size: 12px;}
+    .slick-prev, .slick-next {width: 8%; height: 30%;}
+    .submit {width: 30%;}
+    .row5 {margin-top: 10%;}
+    .biuro {margin-bottom: 30px;}
+    .button {width: 50%;}
+    
+}
+
+
+@media (max-width: 767px)  /*DO 767 EXTRA SMALL*/
+{
+    .menu { display: none }
+    .lorem {font-size: 12px !important;}
+    .button {width: 55%;}
+    .aktualnosci_header {font-size: 45px;}
+    .aktualnosci_footer {margin-top: 110%;}
+    .tlo2_text1 {font-size: 18px;}
+    .tlo2_text2 {margin-top: 50%; font-size: 12px;}
+    .slick-prev, .slick-next {width: 9%; height: 30%;}
+    .footer_left {text-align:center; font-size: 14px;}
+    .centrala {font-size: 20px;}
+    .biuro {margin-bottom: 10%;}
+    .submit {width: 100%;}
+    .tinynav2 { display: block; border:1px solid black; width: 50%; padding: 2% 3%; font-size: 14px; margin-bottom: 10%; }
+    .tinynav { display: block; color: black; font-weight: 700; margin-left: auto; margin-right: auto; width: 35%;}
+    .prawy_lewy {font-size: 40px;}
+}
+
+
+@media (max-width: 479px)  /*320-479*/
+{
+    .zajecia, .pozalekcyjne {font-size: 25px;}
+    .lorem {font-size: 8px !important;}
+    .button {width: 90%;}
+    .aktualnosci_header {font-size: 32px;}
+    .aktualnosci_footer {margin-top: 135%;}
+    .tlo2_text1 {font-size: 18px;}
+    .tlo2_text2 {margin-top: 80%;}
+    .header_menu {display: none;}
+}
+

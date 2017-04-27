@@ -1,0 +1,618 @@
+/*
+Theme Name: Konargroup
+Author: Inov
+Version: 1.1
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900&subset=latin-ext);
+
+
+@charset "utf-8";
+*{
+	margin: 0; 
+    padding: 0; 
+    border: 0; 
+    text-decoration: none; 
+    outline: 0;
+}
+body {
+	font: 1em 'Helvetica Neue', Helvetica, sans-serif; /* 10px */
+	word-wrap: break-word;
+}
+/* style wordpress start */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+/* style wordpress stop */
+
+.container
+.row,
+.logo,
+.menu,
+.logo_header,
+.tlo1,
+.lewy,
+.prawy,
+.firma_opis,
+.galeria_lewy,
+.galeria_prawy,
+.img,
+.black,
+.footer_lewy,
+.footer_prawy,
+.footer_srodek,
+.footer_dol,
+.footer_dol_prawy,
+.home,
+.menu2,
+.inov
+{
+    padding: 0px;
+}
+
+.row
+{
+    width: 100%;
+    margin: 0px;
+}
+
+.floatL
+{
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+
+.header
+{
+    font-size: 16px;
+    font-family: 'Roboto';
+
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.center1
+{
+    position: relative;
+}
+
+.menu
+{
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+
+.menu li
+{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.menu li:after 
+{
+    display: inline-block;
+    content: "|";
+    margin-left: 5px;
+}
+
+.menu li:last-child:after
+{
+    display: none;
+}
+
+.menu li a
+{
+    color: #0b1144;
+}
+
+.menu li a:hover
+{
+    color: #101010;
+    text-decoration: none;
+}
+
+
+
+.logo_header
+{
+    top: 0px;
+    left: 0px;
+    height: 120px;
+    background-color: #0b1144;
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    padding: 7% 1% 1% 1%;
+}
+
+.logo_text
+{
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+
+.tlo1
+{
+    background: url("images/tlo1.png") no-repeat;
+    background-size: cover;
+    height: 836px;
+    margin-bottom: 5%;
+}
+
+.box1
+{
+    width: 80%;
+    background-color: white;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    text-align: justify;
+}
+
+.tytul1
+{
+    display: block;
+    padding: 8% 5%;
+    font-size: 20px;
+}
+
+.tytul2
+{
+    display: block;
+    padding: 2% 5% 8% 5%;
+    font-size: 14px;
+}
+
+.arrow11
+{
+    background-color: transparent;
+    margin-top: 8%;
+}
+
+.arrow
+{
+    width: 10%;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 2%;
+    text-align: center;
+}
+
+.napis
+{
+    font-size: 30px;
+    display: block;
+    color: black;
+    padding: 0px;
+}
+
+.firma_opis
+{
+    font-size: 14px;
+    text-align: justify;
+    background: url("images/L.png") no-repeat;
+    background-position: 100% 100%;
+    padding: 0% 3% 2% 0%;
+}
+
+.jeden
+{
+    margin: 1% 0% 4% 0%;
+}
+
+.black
+{
+    background-color: transparent;
+    height: 303px;
+}
+
+.black_black
+{
+    width: 96%;
+    background-color: black;
+    float: right;
+    height: 100%;
+}
+
+.img1
+{
+    margin-bottom: 2%;
+}
+
+.tytul11
+{
+    color: white;
+    font-size: 18px;
+}
+
+.tytul22
+{
+    color: white;
+    font-size: 13px;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.galeria_prawy_p
+{
+    width: 98%;
+    float: right;
+    margin-top: 10%;
+}
+
+.trzy 
+{
+    margin: 6% 0% 4% 0%;
+}
+
+.napis_trzy_lewy
+{
+    background: url("images/L2.png") no-repeat;
+    background-position: 0% 0%;
+    padding: 4% 0% 0% 4%;
+}
+
+.photo5
+{
+    width:100%;
+    margin-bottom: 5%;
+}
+
+.styl_opis
+{
+    font-size: 14px;
+}
+
+.line
+{
+    width:100%;
+    height: 1px;
+    border: 1px solid #beb8af;
+    margin-bottom: 5%;
+}
+
+.footer_naglowek
+{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.footer_text
+{
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.f1
+{
+    color: black;
+    font-weight: 700;
+}
+
+.email
+{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    color: black;
+    padding: 0% 0% 0% 5%;
+    
+}
+
+.formularz
+{
+    position: relative;
+}
+
+.wyslij
+{
+    position: absolute;
+    right: 5%;
+    top: 0px;
+    text-indent: -9999px;
+    width: 10px;
+    height: 20px;
+    background: url("images/arrow-r.png") no-repeat;
+    margin-top: 4% !important;
+}
+
+.footer_dol
+{
+    margin: 15% 0% 3% 0%;
+}
+
+.footer_dol_lewy
+{
+    border-top: 5px solid #f2f2f2;
+}
+
+.footer_dol_prawy
+{
+    position: right;
+}
+
+.copy
+{
+    color: #ccc;
+    font-size: 12px;
+    display: block;
+    margin: 2% 0% 2% 0%;
+}
+
+.mail_under
+{
+    font-size: 12px;
+    color: #cdcfd0;
+    display: block;
+    margin-top: 2%;
+}
+
+.footer_menu
+{
+    background-color: #f1eee9;
+    width: 100%;
+}
+
+.menu2
+{
+    padding-left: 2%;
+    padding: 2% 0% 2% 2%;
+}
+
+.menu2 li
+{
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 1%;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+.menu2 li a
+{
+    cursor: pointer;
+    color: #797877;
+}
+
+.menu2 li:last-child
+{
+    margin-right: 0%;
+}
+
+.inov
+{
+    padding: 2% 1% 2% 0%;
+    display: block;
+    text-align: right;
+    color: #797877;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.p1,
+.p3,
+.p4,
+{
+    width: 100%;
+}
+
+.tinynav { display: none; }     /*to jest menu w stopce - tinynav STYLIZUJE*/
+/*to jest menu u gór - tinynv2 STYLIZUJEy*/
+/* musze dac jeszcze w odpowiednioej rozdzielczosci znacznik display: none; aby nie wyswietlało się drugoe menu*/
+
+
+
+
+@media(min-width: 1919px)   /*1200 i więcej LARGE*/
+{
+    .menu li{font-size: 17px;}
+    .logo_text {font-size: 24px !important; font-weight: 700;}
+    .logo_header {height: 200px; padding: 8% 1% 1% 1%;}
+    .menu li {font-size: 23px;}
+    .tytul1 {font-size: 23px; padding: 8% 5% 5% 5%;}
+    .box1 {height: 450px;}
+    .tytul2 {font-size: 18px;}
+    .napis {font-size: 40px;}
+    .firma_opis {font-size: 18px; line-height: 25px;}
+    .black_black {height: 485px;}
+    .tytul1 {font-size: 25px;}
+    .tytul2 {font-size: 19px;}
+    .p4 {margin-top: 2%;}
+    .styl_opis {font-size: 18px;}
+    .footer_naglowek {font-size: 22px;}
+    .footer_text {font-size: 18px; line-height: 25px;}
+    .mail_under {font-size: 16px; margin-top: 4%;}
+    .wyslij {margin-top: 3% !important;}
+    .copy {font-size: 15px;}
+    .home {width: 7%;}
+    .menu2 li {line-height: 30px; font-size: 18px;}
+    .inov {font-size: 18px; line-height: 30px;}
+}
+
+
+
+
+@media(max-width: 1199px)  /*992-1199 MEDIUM*/
+{
+    .menu li {font-size: 11px;}
+    .black_black{height: 325px;}
+    .p2 {height: 325px;}
+    .p3 {width: 100%;}
+    .p4 {width: 100%; margin-top: 3%;}
+    .tytul22 {font-size: 12px;}
+    .napis {font-size: 19px;}
+    .footer_naglowek {font-size: 14px;}
+    .tinynav2 {
+        display: block;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        width: 30%;
+        padding: 1% 5% 1% 12%;
+        font-size: 14px;
+        font-weight: 700;}
+
+        .menu2 {display: none;}
+    }
+
+
+    @media (max-width: 991px)  /*768-991 SMALL*/
+    {   
+        .menu {display: none;}
+        .tinynav1 {
+            display: block;
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 3%;
+            width: 50%;
+            padding: 1% 5% 1% 20%;
+            font-size: 22px;
+            font-weight: 700;
+        }
+        .napis {font-size: 25px; text-align: center;}
+        .firma_opis {padding: 0% 100% 2% 0%;}
+        .p3 {width: 100%;}
+        .p4 {width: 100%; margin-top: 3%;}
+        .p1 {width: 70%;}
+        .p2 {height: 316px;}
+        .black_black {float: left; width: 97%;}
+        .tytul1 {padding: 6% 5% 3% 5%;}
+        .tytul11 {font-size: 20px;}
+        .tytul22 {font-size: 14px; line-height: 20px;}
+        .footer_prawy {margin-top: 22%;}
+        .wyslij {margin-top: 2% !important;}
+
+
+
+        @media (max-width: 767px)  /*DO 767 EXTRA SMALL*/
+        {
+            .box1 {width: 100%;}
+            .tytul2 {line-height: 18px;}
+            .p1 {width: 100%;}
+            .p2 {    margin-left: auto;
+                margin-right: auto;
+                position: center;
+                display: block;
+                margin-bottom: 2%;}
+            .black_black {width: 100%;}
+            .tinynav1 {padding: 1% 5% 1% 17%;}
+            .footer_lewy {margin-bottom: 10%;}
+            .footer_naglowek {margin-bottom: 20px;}
+            .footer_prawy {margin-top: 10%; margin-bottom: 5%;}
+            .wyslij {margin-top: 2% !important;}
+            .email {height: 35px;}
+            .tinynav2 {width: 40%;}
+            .footer_menu {margin-top: 10%;}
+            }
+
+
+            @media (max-width: 479px)  /*320-479*/
+            {
+                .logo_header {width: 25%;}
+                .tinynav1 {padding: 1% 5% 1% 12%;, margin-bottom: 8%;}
+                .box1 {height: 515px;}
+                .up {width: 100%;}
+                .home {width: 11%;}
+            }

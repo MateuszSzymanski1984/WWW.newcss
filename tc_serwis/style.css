@@ -1,0 +1,985 @@
+/*
+Theme Name: Tc serwis
+Author: Inov
+Version: 1.1
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin-ext';
+
+
+@charset "utf-8";
+*{
+	margin: 0; 
+    padding: 0; 
+    border: 0; 
+    text-decoration: none; 
+    outline: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    word-wrap: break-word;
+
+}
+/* style wordpress start */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+/* style wordpress stop */
+
+
+.row
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tlo1
+{
+    background: url('images/tlo1.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 645px;
+    padding: 0px;
+    position: relative;
+}
+
+.center
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_pasek
+{
+    background-color: #f1f2f3;
+    width: 100%;
+    height: 85px;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+    font-size: 18px;
+    color: #414164;
+    position:relative;
+    z-index: 9999;
+}
+
+.kk
+{
+    padding: 0px;
+}
+
+ul.menu li {
+    display: inline-block;
+
+}
+
+ul.sub-menu li a
+{
+    border: 0px;
+}
+
+
+ul.menu li a
+{
+    text-decoration: none;
+    color: #414164;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+ul.menu li a:hover
+{
+    color: #e2001a;
+}
+
+.sf-arrows .sf-with-ul:after,
+.sf-menu li a:after
+{
+    content: "|";
+    color: #414164;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.sf-arrows .sf-with-ul:after{
+    height: auto;
+    width: auto;
+    position: static;
+}
+
+.sf-arrows .sf-with-ul {
+    padding-right: 0;
+}
+
+.sf-arrows .sf-with-ul:last-check {
+    border: none;
+}
+
+.login
+{
+    margin-top: 10px;
+    padding: .75em 1em;
+    background: url('images/img_logowanie.png') no-repeat;
+    background-position: 0px 50%;
+}
+
+a .log
+{
+    text-decoration: none;
+    color: #414164;
+    font-weight: 700;
+}
+
+.log
+{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+
+.floatL
+{
+    float: left;
+}
+
+.floatR
+{
+    float:right;
+}
+
+.header
+{
+    margin-bottom: 50px;
+}
+
+.header_box
+{
+    position: absolute;
+    top: 200px;
+    height: 280px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.oferta_slider > .slick-next.slick-arrow,
+.oferta_slider > .slick-prev.slick-arrow {
+    display: none!important;
+}
+
+.oferta_slider {
+    width: 70%;
+}
+
+.header_box_2
+{
+    background-color: #f1f2f3;
+    padding: 20px;
+    opacity: 0.89;
+    height: 300px;
+}
+
+.header_box_lewy
+{
+    width: 70%;
+    margin-right: 5%;
+    position: relative;
+}
+
+.header_box_prawy
+{
+    width: 25%;
+    position: relative;
+}
+
+.box_title
+{
+    text-transform: uppercase;
+    color: #172983;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.box_opis
+{
+    display: block;
+    color: #585977;
+    font-size: 18px;
+    width: 80%;
+}
+
+a.reed_boox
+{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.red_box
+{
+    background-color: #e2001a;
+    color: #fdeef0;
+    padding: 9px 18px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    float: left;
+}
+
+.red_arrow
+{
+    background-color: #ff0000;
+    color: #fdeef0;
+    padding: 0px 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 28px;
+    float: left;
+}
+
+
+.kropki
+{
+    float: right;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+
+.kropka
+{
+    width:10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #9da1ad;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.arrow
+{
+    width: 90px;
+    height: 90px;
+    background-color: #dddfe6;
+    opacity: 0.7;
+    font-size: 55px;
+    color: black;
+
+}
+
+.arrow-l
+{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    padding: 10px 0px 10px 20px;
+}
+
+.arrow-r
+{
+    position: absolute;
+    right: 0px;
+    top: 300px;
+    padding: 10px 0px 10px 30px;
+}
+
+.fast_contact
+{
+    background-color: #e2001a;
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    bottom:0px;
+    color: white;
+    padding: 1% 0%;
+}
+
+.szkontakt
+{
+    font-size: 36px;
+    font-weight: 600;
+    display: block;
+    padding: 0px;
+}
+
+.tel
+{
+    width: 61px;
+    height: 61px;
+    margin-right: 20px;
+}
+
+.mail
+{
+    width: 61px;
+    height: 61px;
+    margin-right: 20px;
+}
+
+.szkontakt_mala
+{
+    font-size: 16px;
+    display: block;
+}
+
+.szkontakt_duza
+{
+    font-size: 24px;
+    display: block;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+.img
+{
+    padding: 0px;
+}
+
+.uslugi {
+    margin-top: 35px;
+}
+
+.realizacje_header {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 25px;
+}
+
+.slick-dots {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 470px;
+}
+
+.slick-dots li {
+    margin-left: 5px;
+}
+
+ul.slick-dots{
+    list-style: none;
+}
+
+ul.slick-dots li {
+    float: left;
+}
+ul.slick-dots li button {
+    text-indent: -9999px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 12px;
+    background: #9da1ad;
+}
+
+ul li.slick-active button {
+    background: #e2001a;
+    width: 17px;
+    height: 17px;
+}
+
+.napis_zaufali,
+.napis_realizacje {
+    font-size: 20px;
+    font-weight: 700;
+    background: #edf0f7;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+}
+
+.napis_zaufali {
+    background: #ffffff;
+}
+
+.realizacje_border {
+    border-top: 2px solid #172c81;
+    position: relative;
+    bottom: 14px;
+}
+
+.front_first
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #172c81;
+    position: relative;
+    text-align: center;
+}
+
+.wspolpraca
+{
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: -16px;
+    width: auto;
+    padding: 0px 15px;
+    background: white;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
+.ikonka
+{
+    padding: 0px;
+}
+
+.ikonka > a
+{
+    text-decoration: none;
+    color: #172c81;
+}
+
+.ikonka_opis
+{
+    display: block;
+    font-size: 20px;
+}
+
+.podmenu
+{
+    display: block;
+    font-size: 18px;
+    margin: 5% 0%;
+}
+
+.zobacz
+{
+    color: #e0081d;
+    display: inline-block;
+}
+
+
+.tlo2_center
+{
+    position: absolute;
+    margin-left: 33%;
+    margin-right: 30%;
+    top: 50px;
+}
+
+.red_box2
+{
+    background-color: #e2001a;
+    color: #fdeef0;
+    padding: 9px 18px;
+    height: 63px;
+    width: 80%;
+    font-size: 32px;
+    float: left;
+    opacity: 1;
+}
+
+.red_arrow2
+{
+    background-color: #ff0000;
+    color: #fdeef0;
+    padding: 0px 10px;
+    height: 63px;
+    width: 20%;
+    font-size: 45px;
+    float: left;
+    opacity: 1;
+}
+
+.nie_zwlekaj
+{
+    font-size: 33px;
+    color: white;
+    display: block;
+    margin-bottom: 17%;
+}
+
+.aktualnosci
+{
+    margin-top: 40px;
+}
+
+.box_oferta
+{
+    font-size: 14px;
+    color: #414164;
+    font-weight: 600;
+    min-height: 130px;
+    position: relative;
+}
+
+.box_oferta_text
+{
+    display: block;
+}
+
+.lu
+{
+    padding: 10px 20px 25px 0px;
+    border-top: 1px solid #bbc0ce;
+    border-right: 1px solid #bbc0ce;
+}
+
+.lu2 {
+    padding: 10px 20px 25px 20px;
+    border: none;
+    border-top: 1px solid #bbc0ce;
+}
+
+.lu3 {
+    padding: 10px 20px 25px 0px;
+    border: none;
+    border-right: 1px solid #bbc0ce;
+}
+.lu4 {
+    padding: 10px 20px 25px 20px;
+    border: none;
+}
+.ru
+{
+    padding: 10px 0px 25px 40px;
+    border-bottom: 1px solid #bbc0ce;
+}
+
+.lb
+{
+    padding: 50px 40px 25px 0px;
+    border-right: 1px solid #bbc0ce;
+}
+
+.rb
+{
+    padding: 50px 0px 25px 40px;
+}
+
+.zobacz_oferte {
+    position: absolute;
+    bottom: 0;
+}
+
+.bgblue
+{
+    background-color: #edf0f7;
+    width: 100%;
+}
+
+.second
+{
+    margin-top: 75px;
+
+}
+
+.menu2 li:nth-child(2) a:after {
+    color: #FFF;
+}
+
+.second_box
+{
+    position: relative;
+    z-index: 1;
+    height: 282px;
+    padding: 0px;
+}
+
+.realizacje {
+    padding-top: 20px;
+}
+
+.img1
+{
+    background: url('images/img1.png') no-repeat;
+    background-size: cover;
+}
+
+.img2
+{
+    background: url('images/img2.png') no-repeat;
+    background-size: cover;
+}
+
+.img3
+{
+    background: url('images/img3.png') no-repeat;
+    background-size: cover;
+}
+
+.img4
+{
+    background: url('images/img4.png') no-repeat;
+    background-size: cover;
+}
+
+.wsp2
+{
+    margin-top: 30px;
+}
+
+.bg_opacity
+{
+    background-color: #f1f2f3;
+    width: 100%;
+    height: 95px;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.7;
+    padding: 20px 15px;
+}
+
+.lorem
+{
+    font-size: 18px;
+    color: #414164;
+    display: block;
+    width: 84%;
+}
+
+
+.red_arrow3
+{
+    background-color: #ff0000;
+    color: #fdeef0;
+    padding: 0px 13px;
+    height: 35px;
+    width: 35px;
+    font-size: 25px;
+    float: left;
+    margin-top: 3%;
+}
+
+
+.bgblue_text
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #172983;
+    text-align: center;
+    display: block;
+    padding: 30px 0px;
+}
+
+.partnerzy_slick {
+    margin-bottom: 85px;
+    margin-top: 30px;
+}
+
+.partnerzy_slick button.slick-prev {
+    position: absolute;
+    left: -48px;
+    top: 25%;
+}
+
+.partnerzy_slick button.slick-next {
+    position: absolute;
+    top: 25%;
+    right: -35px;
+}
+
+
+.partnerzy
+{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.partners {
+    position: relative;
+}
+
+.arrow-ll
+{
+    position: absolute;
+    left: 0px;
+    top: 48px;
+    padding: 10px 0px 10px 20px;
+    color: white;
+}
+
+.arrow-rr
+{
+    position: absolute;
+    right: 0px;
+    top: 48px;
+    padding: 10px 0px 10px 30px;
+    color: white;
+}
+
+.footer
+{
+    width: 100%;
+}
+
+.belt_up
+{
+    background-color: #9da1ad;
+    height: 60px;
+    position: relative;
+    text-align: center;
+}
+
+ul.menu2
+{
+    position: relative;
+    left:0;
+    right: 0;
+    display: inline-block;
+
+}
+
+ul.menu2 li 
+{
+    display: inline-block;
+}
+
+.menu2 ul li
+{
+    background-color: #9da1ad !important;
+}
+
+ul.menu2 li a
+{
+    border: 0px; 
+}
+
+
+ul.menu2 li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.menu2 li a:after
+{
+    content: "|";
+    color: white;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+
+ul.menu2 li a:hover
+{
+    color: #e2001a;
+}
+
+
+.belt_down
+{
+    background-color: #bbc0ce;
+}
+
+.media
+{
+    text-align: center;
+    padding: 30px 0px 25px 0px;
+}
+
+.fa2
+{
+    font-size: 30px;
+    color: #e0081d;
+    margin-right: 1%;
+}
+
+
+.design
+{
+    color: white;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tinynav { display: none; }
+
+
+@media(min-width: 1918px)    /*1920 i więcej -- dodatkowy przedział*/  
+{   
+    ul.menu li a {font-size: 20px;}
+    ul.menu li {margin-right: 15px;}
+    .log {font-size: 20px;}
+    .box_title {font-size: 35px;}
+    .box_opis {font-size: 20px;}
+    .red_box {font-size: 18px;}
+    .nie_zwlekaj {font-size: 40px;}
+    .box_oferta {font-size: 18px; height: 150px;}
+    .lorem {font-size: 20px;}
+    .bgblue_text {font-size: 18px;}
+
+    ul.menu2 li a {font-size: 16px;}
+    .fa2 {font-size: 35px;}
+    .design {font-size: 16px;}
+    .fast_contact {height: 90px;}
+}
+
+@media(max-width: 1918px)       /*1200 i więcej LARGE*/
+{
+    /*.sf-menu a {padding: .75em 10px;}*/
+    /*.sf-menu li a:after {padding-left: 10px;}*/
+}
+
+
+
+@media(max-width: 1199px)  /*992-1199 MEDIUM*/
+{
+    ul.menu li a {font-size: 13px;}
+    .log {font-size: 15px;}
+    .login {padding: 8px 15px;}
+    .box_title {font-size: 25px;}
+    .box_opis {font-size: 15px;}
+    .szkontakt {font-size: 31px;}
+    .szkontakt_duza {font-size: 19px;}
+    .red_box2 {font-size: 28px;}
+    .podmenu {font-size: 14px;}
+    .img3, .img4 {margin-top: 20px;}
+}
+
+
+@media (max-width: 991px)  /*768-991 SMALL*/
+{   
+    .tinynav1 { display: block; float: left; margin: 10px 25px;}
+    .menu{ display: none; }
+    .arrow {width: 60px; height: 60px; font-size: 45px;}
+    .arrow-l { padding: 0px 0px 0px 10px;}
+    .arrow-r { padding: 0px 0px 0px 10px;}
+    .box_opis {font-size: 12px;}
+    .red_box {width: 75px; padding: 9px;}
+    .szkontakt {font-size: 25px;}
+    .tel, .mail {width: 40px; height: 40px;}
+    .szkontakt_duza {font-size: 15px;}
+    .fast_contact {height: 60px;}
+    .dol {margin-top: 30px;}
+    .ikonka_opis {font-size: 18px;}
+    .nie_zwlekaj {font-size: 30px;}
+    .red_box2 {font-size: 23px; padding: 9px;}
+    .box_oferta {height: 180px;}
+}
+
+
+
+@media (max-width: 767px)  /*DO 767 EXTRA SMALL*/
+{
+    .tinynav1 { display: block; float: left; margin: 10px 25px; width: 110px;  }
+    .menu{ display: none; }
+    .log {font-size: 14px;}
+    .menu_pasek {height: 70px;}
+    .header_box {top: 85px;}
+    .header_box_2 {height: 240px; padding: 15px;}
+    .header_box_lewy {width: 100%;} 
+    .header_box_prawy {width: 100%; margin-top:1%;}
+    .arrow {display: none;}
+    .box_opis {width: 95%;}
+    .box_title {font-size: 24px;}
+    .szkontakt {font-size: 16px;}
+    .tel, .mail {width: 22px; height: 22px; margin-right: 5px;}
+    .szkontakt_mala {font-size: 11px;}
+    .szkontakt_duza {font-size: 10px;}
+    .fast_contact {height: 60px;}
+    .podmenu {font-size: 11px;}
+    .tlo2_center {margin-left: 10%; margin-right: 10%;}
+    .lu, .ru, .lb{ padding: 10px 40px 25px 0px; border-bottom: 1px solid #bbc0ce; border-right: 0px;}
+    .rb {border: 0px; padding: 10px 40px 25px 0px;}
+    .second_box {margin-top:10px;}
+    ul.menu2 {display: none;}
+    .tinynav2 {display: block;    margin-right: auto;margin-left: auto;text-align: center;font-size: 14px;padding: 5px 10px;background: transparent; border: 1px solid white; font-weight: 700;}
+    .belt_up {padding: 10px 0px;}
+}
+
+
+@media (max-width: 479px)  /*320-479 --dodatkowy przedział*/
+{
+
+}
